@@ -1,3 +1,41 @@
-h6 {display: block}
-h1 {display: inline-block}
-h2 {display: inline}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin: 100px auto;
+    border: black solid 1px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.ops {
+    width: 100%;
+}
+
+.op {
+    width: 24%;
+    margin: 0;
+}
+
+.number {
+    width: 32%;
+    margin: 0;
+}
+
+.nums {
+    width: 75%;
+    text-align: left;
+}
+
+.equal {
+    text-align: right;
+    width: 23%;
+    height: 5rem;
+    vertical-align: top;
+}
+
+.nums, .equal {
+    display: inline-block;
+}

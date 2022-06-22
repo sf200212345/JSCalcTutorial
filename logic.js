@@ -1,1 +1,13 @@
-console.log('hello world');
+let record = [];
+
+function opInput(op) {
+
+}
+
+function numInput(num) {
+
+}
+
+function calc() {
+
+}

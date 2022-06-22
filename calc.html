@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href = "format.css">
-        <h1>Simple Calculator</h1>
+        <link rel = "stylesheet" type="text/css" href = "format.css" />
+        <title>Simple Calculator</title>
     </head>
-
     <body>
-        <h3>header 3</h3>
-        <h4>header 4</h4>
+        <div class="container">
+            <div id="display">
+                283123
+            </div>
+            <div class="ops">
+                <button class="op" onclick="opInput('+')">+</button>
+                <button class="op" onclick="opInput('-')">-</button>
+                <button class="op" onclick="opInput('*')">&times;</button>
+                <button class="op" onclick="opInput('/')">÷</button>
+            </div>
+            <div class="nums">
+                <button class="number" onclick="numInput(7)">7</button>
+                <button class="number" onclick="numInput(8)">8</button>
+                <button class="number" onclick="numInput(9)">9</button>
+                <button class="number" onclick="numInput(4)">4</button>
+                <button class="number" onclick="numInput(5)">5</button>
+                <button class="number" onclick="numInput(6)">6</button>
+                <button class="number" onclick="numInput(1)">1</button>
+                <button class="number" onclick="numInput(2)">2</button>
+                <button class="number" onclick="numInput(3)">3</button>
+                <button class="number" onclick="numInput(0)">0</button>
+                <button class="number" onclick="numInput('.')">.</button>
+                <button class="number" onclick="numInput('c')">AC</button>
+            </div>
+            <button class="equal" onclick="calc()">=</button>
+        </div>
     </body>
-
-    <footer>
-        sidoajodis
-        <h5 style = "display: inline-block">header 5</h5>
-        jojeijdoijd
-        <h6>header 6</h6>
-    </footer>
+    <script src="logic.js"></script>
 </html>
